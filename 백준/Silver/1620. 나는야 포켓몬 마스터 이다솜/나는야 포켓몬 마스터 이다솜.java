@@ -53,9 +53,12 @@ public class Main {
 //            }
 //    }
 
+        // isDigit과 반대되는 것은 Character.isAlphabetic임. 글자가 알파벳인지 확인하여 boolean 반환.
+
         br.close();
 
         bw.flush();
         bw.close();
     }
 }
+
